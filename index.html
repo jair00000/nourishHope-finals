@@ -1,274 +1,270 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nourish Hope Foundation</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css" rel="stylesheet"
+    type="text/css" />
+  <title>Nourish Hope Foundation</title>
 
-
+  <link href="./styles/index.css" rel="stylesheet">
+  <link href="./styles/header_footer.css" rel="stylesheet">
 </head>
+
 <body>
-    <!-- 1st Navbar Section -->
-    <nav class="nav-section-one">
-        <div class="social-icons">
-            <a href="#" title="Facebook"><i class="ri-facebook-fill"></i></a>
-            <a href="#" title="Instagram"><i class="ri-instagram-line"></i></a>
-            <a href="#" title="Twitter"><i class="ri-twitter-line"></i></a>
-        </div>
-        <div class="top-text">HOPE WITH CHRIST</div>
-        <button class="donate-button">Donate Now</button>
-    </nav>
-
-    <!-- 2nd Navbar Section -->
-    <nav class="nav-section-two">
-        <div class="navbar-left">
-            <div class="logo"></div>
-            <span class="website-name">NOURISH HOPE FOUNDATION</span>
-        </div>
-        <ul class="nav-menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="feed.html">Feed</a></li>
-            <li><a href="clothe.html">Clothe</a></li>
-            <li><a href="supply.html">Supply</a></li>
-            <li><a href="newsevents.html">News & Events</a></li>
+    <!-- START HEADER -->
+  <header>
+    <!-- TOP HEADER -->
+    <section class="top-header-wrapper">
+      <div class="top-header">
+        <ul class="header-icons">
+          <li><img class="us-icon" src="./icons/US-United-States-Flag-icon.png" alt=""></li>
+          <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+          <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
         </ul>
-    </nav>
+        <p class="header-title">HOPE WITH CHRIST</p>
+        <button class="donate-btn" type="button">Donate Now</button>
+      </div>
+    </section>
 
-    <!-- 3rd Navbar Section -->
-    <div class="nav-section-three">
-        <input type="text" class="search-bar" placeholder="Search...">
-        <div class="icon-buttons">
-            <a href="#" class="icon" title="About Us"><i class="ri-team-line"></i></a>
-            <a href="#" class="icon" title="Articles"><i class="ri-article-line"></i></a>
-        </div>
-    </div>
-
-    <!-- Main Content with Event Title and Date -->
-    <div class="main-content">
-        <div class="green-background"> <!-- Main background color -->
-            <div class="white"> <!-- White box -->
-                <div class="event-info"> <!-- Yellow box with event title -->
-                    <h2 class="event-title">Nourish Hope Foundation, Feeding Event November 2024</h2>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Be the Light Section -->
-<div class="be-the-light">
-    <img src="../nourishHope/assets/food-removebg-preview.png" alt="Food Photo" class="light-photo">
-    <div class="be-the-light-content">
-        <h3 class="be-the-light-title">
-            Be the <br>
-            <span class="light-word">
-                L<svg xmlns="http://www.w3.org/2000/svg" width="41" height="132" viewBox="0 0 41 132" fill="none">
-                    <path d="M3.12877 55.6952C5.17165 59.581 7.72525 62.819 11.3003 64.7619H31.7291C33.2613 64.1143 34.2827 62.819 35.3042 61.5238C40.4114 55.0476 42.4542 45.3333 39.9006 36.9143L39.3899 35.619C38.8792 33.6762 37.8578 32.381 36.8363 31.0857C36.3256 29.7905 35.3042 29.1429 34.7934 27.8476C32.7506 25.9048 30.7077 23.9619 28.6648 21.3714C24.0683 15.5429 23.5576 6.47619 26.1112 0C23.5576 0.647619 21.004 2.59048 18.9611 5.18095C11.3003 12.9524 8.23597 26.5524 11.811 38.8571V40.1524C11.811 40.8 11.3003 41.4476 10.7896 42.0952C10.2789 42.7429 9.25741 42.0952 8.74669 41.4476L8.23597 40.8C5.17165 35.619 4.66093 27.8476 6.70381 21.3714C2.10733 26.5524 -0.446277 34.9714 0.0644438 43.3905C0.0644438 45.3333 0.575163 47.2762 1.08588 49.2191C1.08588 51.1619 2.10733 53.7524 3.12877 55.6952ZM22.0254 45.981C22.5361 42.7429 21.5147 40.1524 21.004 37.5619C20.4933 34.9714 20.4933 32.381 21.5147 29.7905L23.0469 33.6762C25.0897 37.5619 28.6648 38.8571 29.6862 44.0381V45.981C29.6862 49.2191 28.6648 52.4571 27.1326 54.4C26.1112 55.0476 25.0897 56.3429 24.0683 56.3429C21.004 57.6381 17.4289 55.6952 15.3861 53.1048C19.4718 53.1048 21.5147 49.2191 22.0254 45.981ZM35.8149 71.2381V84.1905H30.7077L25.6005 136H15.3861L10.2789 84.1905H5.17165V71.2381H35.8149Z" fill="#FFD400"/>
-                  </svg>ght
-            </span>
-        </h3>
-    </div>
-</div>
-
-<!-- copy the above section for the rest of the hearder in other pages -->
-
-
-<!-- Goals and visions ection -->
-<div class="goals-vision-container">
-    <div class="goals">
-        <div class="h2-square">
-            <h2>OUR GOALS</h2>
-        </div>
-        <p>Our goal at Nourish Hope Foundation is to improve the lives of children in rural communities by focusing on four key areas: nutrition, clothing, education, and physical activity. We aim to provide regular nutritious meals to at least 1,000 children each year through our feeding programs. By distributing essential clothing and footwear, we strive to protect children from harsh weather and promote their health and dignity. Additionally, we seek to empower 500 children annually by organizing sports activities that enhance their physical and mental well-being. Through our school supplies initiative, we aim to equip underprivileged students with the necessary materials to support their education. Our overall goal is to ensure that children in these rural areas have the resources they need to thrive, feel supported, and have the opportunity to build a brighter future for themselves and their communities.</p>
-    </div>
-
-    <div class="vision">
-        <div class="h2-square">
-            <h2>OUR VISIONS</h2>
-        </div>
-        <p>At Nourish Hope Foundation, we envision a future where every child in rural areas thrives, free from hunger, neglect, and poverty. We aspire to create communities where children are nourished physically, mentally, and emotionally, with access to nutritious meals, adequate clothing, and enriching educational opportunities. Our vision is to empower children to break the cycle of poverty by equipping them with the tools they need to succeed in life—whether through education, sports, or community support. We believe that every child deserves a chance to lead a dignified and fulfilling life, regardless of their socioeconomic status. Our hope is to create a generation of strong, confident children who will grow into compassionate, capable adults, ready to contribute positively to society. By addressing their immediate needs and fostering a supportive environment, we aim to build a future where no child is left behind.</p>
-    </div>
-</div>
-
-
-
-<!-- Circles -->
-
-
-<div class="theme-container">
-
-    <div class="feed">
-        <div class="circle-1"><h1 class="feed-text">feed</h1></div>
-        
-    </div>
-    
-    <div class="clothe">
-        <div class="circle-2"><h1 class="clothe-text">clothe</h1></div>
-        
-    </div>
-    <div class="supply">
-        <div class="circle-3"><h1 class="supply-text">supply</h1></div>
-        
-    </div>
-</div>
-
-
-<!-- home page pic-->
-
-<div class="homepage">
-    <img class= "homepage-pic"src="assets/Homepage.jpg" alt="Community photo" />
-
-    
-        <p class="homepage-text">Your support can be the difference between a hungry child and a nourished future. By donating today, you’re not just providing food or clothing; you’re investing in a child’s health, education, and potential for a brighter tomorrow. Every contribution, no matter the size, helps us empower children in rural areas to overcome challenges and build a better, more equitable future. Together, we can create lasting change and give these children the resources they need to thrive.</p>
-    
-    
-</div>
-
-
-<div class="homepage-letter">
-
-    <div class="letter-container">
-    <img class ="letter"src="assets/Letterhead.jpeg" alt="Community photo" />
-    </div>
-
-    <div class="homepage-container">
-        <p class="homepage-text2">When you donate to Nourish Hope Foundation, you’re doing more than providing a meal or a pair of shoes—you’re giving a child the chance to thrive. Your generosity allows us to reach children in rural areas, ensuring they have access to nutritious food, essential clothing, and the tools they need to succeed in school and life. Every dollar makes a difference, helping us build a future where no child is left behind, and every child has the opportunity to grow into a strong, healthy, and empowered individual.</p>
-    </div>
-    
-</div>
-
-<!--Sponsors section-->
-
-<div class="sponsors">
-    <h1 class="sponsor-title">Our Sponsors for today’s <br> Event.</h1>
-
-    
-</div>
-
-<div class="sponsors">
-
-    <div class="sponsor1">
-        
-        
-    </div>
-    
-    <div class="sponsor2">
-        
-        
-    </div>
-    <div class="sponsor3">
-        
-        
-    </div>
-</div>
-
-
-<!--Thank you message-->
-
-<div class="message">
-    <div class="message-box">
-        <h2 class="message-text">"Thank you for generously sponsoring today's feeding program. Your support makes a significant difference in the lives of those in need and helps bring hope and nourishment to our community. We deeply appreciate your commitment and partnership in this important cause."</h2>
-    </div>
-</div>
-
-
-<!--Thank you message-->
-
-
-<footer>
-    <div class="be-the-light-footer">
-        <img src="../nourishHope/assets/food-removebg-preview.png" alt="Food Photo" class="light-photo">
-
-        <div class="footer1">
-
-            <div class="be-the-light-content-footer">
-
-                <h3 class="be-the-light-title-footer">
-                    Be the <br>
-                    <div class="light-word-footer">
-                        L<svg xmlns="http://www.w3.org/2000/svg" width="41" height="132" viewBox="0 0 41 132" fill="none">
-                            <path d="M3.12877 55.6952C5.17165 59.581 7.72525 62.819 11.3003 64.7619H31.7291C33.2613 64.1143 34.2827 62.819 35.3042 61.5238C40.4114 55.0476 42.4542 45.3333 39.9006 36.9143L39.3899 35.619C38.8792 33.6762 37.8578 32.381 36.8363 31.0857C36.3256 29.7905 35.3042 29.1429 34.7934 27.8476C32.7506 25.9048 30.7077 23.9619 28.6648 21.3714C24.0683 15.5429 23.5576 6.47619 26.1112 0C23.5576 0.647619 21.004 2.59048 18.9611 5.18095C11.3003 12.9524 8.23597 26.5524 11.811 38.8571V40.1524C11.811 40.8 11.3003 41.4476 10.7896 42.0952C10.2789 42.7429 9.25741 42.0952 8.74669 41.4476L8.23597 40.8C5.17165 35.619 4.66093 27.8476 6.70381 21.3714C2.10733 26.5524 -0.446277 34.9714 0.0644438 43.3905C0.0644438 45.3333 0.575163 47.2762 1.08588 49.2191C1.08588 51.1619 2.10733 53.7524 3.12877 55.6952ZM22.0254 45.981C22.5361 42.7429 21.5147 40.1524 21.004 37.5619C20.4933 34.9714 20.4933 32.381 21.5147 29.7905L23.0469 33.6762C25.0897 37.5619 28.6648 38.8571 29.6862 44.0381V45.981C29.6862 49.2191 28.6648 52.4571 27.1326 54.4C26.1112 55.0476 25.0897 56.3429 24.0683 56.3429C21.004 57.6381 17.4289 55.6952 15.3861 53.1048C19.4718 53.1048 21.5147 49.2191 22.0254 45.981ZM35.8149 71.2381V84.1905H30.7077L25.6005 136H15.3861L10.2789 84.1905H5.17165V71.2381H35.8149Z" fill="#FFD400"/>
-                        </svg>ght
-                    </div>
-                </h3>
-            </div>
-
-            <div class="footer-message">
-                <h2 class="footer-text">Nourish Hope Foundation is devoted to improving the lives of children in rural communities by meeting their basic needs. By providing nutritious meals, clothing, school supplies, and access to sports, we strive to give every child the tools and opportunities for healthy growth and development. Our goal is to help these children thrive and build a brighter future for themselves.</h2>
-            </div>
-            
-
+    <!-- Navbar -->
+    <div class="nav-wrapper">
+      <nav class="desktop">
+        <div class="logo-container">
+          <h2>NOURISH HOPE FOUNDATION</h2>
         </div>
 
-        <button class="donate-button-footer">Donate Now</button>
+        <button class="open nav-btn" type="button"><i class="far fa-bars"></i></button>
+        <button class="close nav-btn" type="button"><i class="far fa-times"></i></button>
+          <hr class="new-line" style="width: 100%;">
+        <ul class="nav-section">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="feed.html">Feed</a></li>
+          <li><a href="clothe.html">Clothe</a></li>
+          <li><a href="supply.html">Supply</a></li>
+          <li><a href="#">News & Events</a></li>
+        </ul>
 
+      </nav>
+    </div>
 
-        <div class="footer2">
+    <!-- BOTTOM HEADER -->
+    <section class="bottom-header-wrapper">
+      <div class="bottom-header">
+        <span class="search-icon"><i class="far fa-search"></i></span>
+        <input class="search-bar" type="search" name="search" placeholder="Search...">
+        <ul class="account-icons-wrapper">
+          <li><a href="#"><i class="fas fa-user"></i></a></li>
+          <li><a href="#"><i class="fas fa-shopping-bag"></i></a></li>
+        </ul>
+      </div>
+    </section>
+  </header>
 
-            <div class="transparent">
-                <div class="transparent-title">
-                    <h2 class="transparent-text">Transparent</h2>
-                </div>
-                <div class="transparent-body">
-                    <i class="ri-instagram-line"></i>
-                    <i class="ri-facebook-circle-line"></i>
-                    <i class="ri-twitter-line"></i>
-                </div>
-            </div>
-        
-            <div class="address">
-                <div class="address-title">
-                    <h2 class="address-text">Address</h2>
-                </div>
-                <div class="address-body">
-                    <div class="address-item">
-                        <h3 class="miss">Madison, Mississippi</h3>
-                    </div>
-                </div>
-            </div>
-        
-            <div class="callus">
-                <div class="callus-title">
-                    <h2 class="callus-text">Contact Us</h2>
-                </div>
-                <div class="callus-body">
-                    <h3 class="num1">+0123 57896857</h3>
-                    <h3 class="num2">+0123 57896857</h3>
-                    <h3 class="num3">nourishhopefoundation@gmail.com</h3>
-                </div>
-            </div>
-        
-            <div class="goals-footer">
-                <div class="goals-title">
-                    <h2 class="goals-text">Goals</h2>
-                </div>
-                <div class="goals-body">
-                    <h3 class="goal-item">Food</h3>
-                    <h3 class="goal-item">Clothe</h3>
-                    <h3 class="goal-item">Supply</h3>
-                </div>
-            </div>
-        
+  <section class="headline">
+    <div class="top-headline-wrapper">
+      <div class="top-headline">
+        <h1>Nourish Hope Foundation, Feeding Event November 2024</h1>
+      </div>
+    </div>
+
+    <div class="bot-headline-wrapper">
+      <div class="bot-headline">
+        <div class="image-container">
         </div>
-        
+        <h2>
+          <pre>Be the
+       L  ght</pre>
+          <!-- <pre>Be the -->
+          <!-- L  ght</pre> -->
+          <svg class="torch" xmlns="http://www.w3.org/2000/svg" 
+            fill="none">
+            <path
+              d="M3.12877 55.6952C5.17165 59.581 7.72525 62.819 11.3003 64.7619H31.7291C33.2613 64.1143 34.2827 62.819 35.3042 61.5238C40.4114 55.0476 42.4542 45.3333 39.9006 36.9143L39.3899 35.619C38.8792 33.6762 37.8578 32.381 36.8363 31.0857C36.3256 29.7905 35.3042 29.1429 34.7934 27.8476C32.7506 25.9048 30.7077 23.9619 28.6648 21.3714C24.0683 15.5429 23.5576 6.47619 26.1112 0C23.5576 0.647619 21.004 2.59048 18.9611 5.18095C11.3003 12.9524 8.23597 26.5524 11.811 38.8571V40.1524C11.811 40.8 11.3003 41.4476 10.7896 42.0952C10.2789 42.7429 9.25741 42.0952 8.74669 41.4476L8.23597 40.8C5.17165 35.619 4.66093 27.8476 6.70381 21.3714C2.10733 26.5524 -0.446277 34.9714 0.0644438 43.3905C0.0644438 45.3333 0.575163 47.2762 1.08588 49.2191C1.08588 51.1619 2.10733 53.7524 3.12877 55.6952ZM22.0254 45.981C22.5361 42.7429 21.5147 40.1524 21.004 37.5619C20.4933 34.9714 20.4933 32.381 21.5147 29.7905L23.0469 33.6762C25.0897 37.5619 28.6648 38.8571 29.6862 44.0381V45.981C29.6862 49.2191 28.6648 52.4571 27.1326 54.4C26.1112 55.0476 25.0897 56.3429 24.0683 56.3429C21.004 57.6381 17.4289 55.6952 15.3861 53.1048C19.4718 53.1048 21.5147 49.2191 22.0254 45.981ZM35.8149 71.2381V84.1905H30.7077L25.6005 136H15.3861L10.2789 84.1905H5.17165V71.2381H35.8149Z"
+              fill="#FFD400"></path>
+          </svg>
+        </h2>
+      </div>
+    </div>
+  </section>
+    <!-- END HEADER -->
 
+  <main>
+    <section class="cards-container">
+      <div class="card">
+        <h2>OUR GOAL</h2>
+        <p>
+          Our goal at Nourish Hope Foundation is to improve the lives of children in rural communities by focusing on
+          four key areas: nutrition, clothing, education, and physical activity. We aim to provide regular nutritious
+          meals to at least 1,000 children each year through our feeding programs. By distributing essential clothing
+          and footwear, we strive to protect children from harsh weather and promote their health and dignity.
+          Additionally, we seek to empower 500 children annually by organizing sports activities that enhance their
+          physical and mental well-being. Through our school supplies initiative, we aim to equip underprivileged
+          students with the necessary materials to support their education. Our overall goal is to ensure that children
+          in these rural areas have the resources they need to thrive, feel supported, and have the opportunity to build
+          a brighter future for themselves and their communities.
+        </p>
+      </div>
+      <div class="card">
+        <h2>OUR VISION</h2>
+        <p>
+          At Nourish Hope Foundation, we envision a future where every child in rural areas thrives, free from hunger,
+          neglect, and poverty. We aspire to create communities where children are nourished physically, mentally, and
+          emotionally, with access to nutritious meals, adequate clothing, and enriching educational opportunities. Our
+          vision is to empower children to break the cycle of poverty by equipping them with the tools they need to
+          succeed in life—whether through education, sports, or community support. We believe that every child deserves
+          a chance to lead a dignified and fulfilling life, regardless of their socioeconomic status. Our hope is to
+          create a generation of strong, confident children who will grow into compassionate, capable adults, ready to
+          contribute positively to society. By addressing their immediate needs and fostering a supportive environment,
+          we aim to build a future where no child is left behind.
+        </p>
+      </div>
+    </section>
 
+    <section class="fcs-section">
+      <div class="fcs-wrapper">
+        <div class="fcs-circle green-circ">
+          <svg width="100" height="100" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M3.55637 8.17803C4.01715 5.88862 5.44974 3.809 7.59811 2.31083C9.74648 0.812669 12.4706 -0.00639142 15.2836 3.75608e-05C18.2073 3.75608e-05 20.8836 0.864037 22.9636 2.29504C25.2199 0.808638 28.0217 -0.000655525 30.9091 3.75608e-05C33.9127 3.75608e-05 36.6764 0.858037 38.8545 2.29504C41.0073 0.808148 43.7269 -0.00453974 46.5345 3.75608e-05C49.3476 -0.00639142 52.0717 0.812669 54.2201 2.31083C56.3685 3.809 57.801 5.88862 58.2618 8.17803C59.6 14.934 61.8182 27.384 61.8182 36C61.8218 40.0522 60.6535 44.0467 58.4102 47.6516C56.1669 51.2565 52.9134 54.3678 48.92 56.727C46.5927 58.107 45.4545 59.772 45.4545 61.197C45.4545 61.311 45.4582 61.389 45.4655 61.479C45.7855 64.767 49.0909 98.904 49.0909 105C49.0909 108.978 47.1753 112.794 43.7656 115.607C40.3558 118.42 35.7312 120 30.9091 120C26.087 120 21.4624 118.42 18.0526 115.607C14.6429 112.794 12.7273 108.978 12.7273 105C12.7273 98.904 16.0327 64.767 16.3491 61.479C16.3593 61.3853 16.3642 61.2912 16.3636 61.197C16.3636 59.772 15.2291 58.107 12.8982 56.727C8.90474 54.3678 5.65126 51.2565 3.40797 47.6516C1.16468 44.0467 -0.00365267 40.0522 8.57849e-06 36C8.57849e-06 27.384 2.21819 14.934 3.55637 8.17803ZM43.6364 38.25C43.6364 39.2446 43.1575 40.1984 42.305 40.9017C41.4526 41.6049 40.2964 42 39.0909 42C37.8854 42 36.7292 41.6049 35.8768 40.9017C35.0243 40.1984 34.5455 39.2446 34.5455 38.25V10.5C34.5455 9.70439 34.1623 8.94132 33.4804 8.37872C32.7984 7.81611 31.8735 7.50004 30.9091 7.50004C29.9447 7.50004 29.0198 7.81611 28.3378 8.37872C27.6558 8.94132 27.2727 9.70439 27.2727 10.5V38.25C27.2727 39.2446 26.7938 40.1984 25.9414 40.9017C25.089 41.6049 23.9328 42 22.7273 42C21.5217 42 20.3656 41.6049 19.5132 40.9017C18.6607 40.1984 18.1818 39.2446 18.1818 38.25V9.89103C18.1818 9.2569 17.8765 8.64874 17.333 8.20034C16.7895 7.75194 16.0523 7.50004 15.2836 7.50004C13.8727 7.50004 12.7382 8.31904 12.5273 9.39004C11.1818 16.191 9.09092 28.077 9.09092 36C9.08735 38.8614 9.91208 41.6821 11.4965 44.2275C13.0809 46.7728 15.3791 48.9693 18.2 50.634C21.9091 52.83 25.4546 56.493 25.4546 61.194C25.4546 61.488 25.4436 61.764 25.4146 62.079C25.0655 65.64 21.8182 99.3 21.8182 105C21.8182 106.989 22.776 108.897 24.4809 110.303C26.1857 111.71 28.498 112.5 30.9091 112.5C33.3202 112.5 35.6325 111.71 37.3373 110.303C39.0422 108.897 40 106.989 40 105C40 99.3 36.7527 65.64 36.4073 62.079C36.3796 61.7856 36.3651 61.4914 36.3636 61.197C36.3636 56.493 39.9091 52.827 43.6182 50.634C46.4391 48.9693 48.7373 46.7728 50.3217 44.2275C51.9061 41.6821 52.7308 38.8614 52.7273 36C52.7273 28.077 50.6364 16.191 49.2909 9.39004C49.1786 8.85618 48.8395 8.37276 48.3344 8.02643C47.8294 7.6801 47.1913 7.49348 46.5345 7.50004C45.7659 7.50004 45.0287 7.75194 44.4852 8.20034C43.9417 8.64874 43.6364 9.2569 43.6364 9.89103V38.25ZM107.273 7.59604V56.25C107.273 58.02 107.956 66.24 108.709 75.255L108.76 75.867C109.778 88.065 110.909 101.673 110.909 105C110.909 106.989 109.951 108.897 108.246 110.303C106.542 111.71 104.229 112.5 101.818 112.5C99.4071 112.5 97.0948 111.71 95.3899 110.303C93.6851 108.897 92.7273 106.989 92.7273 105C92.7273 102.054 93.6182 90.042 94.5345 78.54C95.0721 71.8091 95.6261 65.0791 96.1964 58.35L96.3527 56.514C96.3967 56.0006 96.312 55.4852 96.104 54.9999C95.896 54.5146 95.5691 54.0698 95.1438 53.6933C94.7184 53.3168 94.2036 53.0165 93.6315 52.8112C93.0593 52.6059 92.4421 52.5 91.8182 52.5H80.9091C80.1858 52.5 79.4921 52.263 78.9806 51.841C78.4692 51.4191 78.1818 50.8468 78.1818 50.25V33.75C78.1816 27.1775 81.1701 20.844 86.5565 16.0014C91.9429 11.1588 99.3353 8.1594 107.273 7.59604ZM86.9454 60L86.7164 62.736C86.3745 66.822 85.9164 72.336 85.4655 78.048C84.5636 89.37 83.6364 101.733 83.6364 105C83.6364 108.978 85.5519 112.794 88.9617 115.607C92.3714 118.42 96.9961 120 101.818 120C106.64 120 111.265 118.42 114.675 115.607C118.084 112.794 120 108.978 120 105C120 101.373 118.855 87.618 117.862 75.744L117.829 75.354C117.036 65.838 116.364 57.72 116.364 56.25V3.75004C116.364 1.68004 114.327 3.75608e-05 111.818 3.75608e-05H110C87.4073 3.75608e-05 69.0909 15.111 69.0909 33.75V50.25C69.0909 52.8359 70.336 55.3158 72.5524 57.1443C74.7687 58.9728 77.7747 60 80.9091 60H86.9454Z"
+              fill="white" />
+          </svg>
+        </div>
+        <h2 class="fcs-title">FEED</h2>
+      </div>
 
-    
+      <div class="fcs-wrapper">
+        <div class="fcs-circle blue-circ">
+          <svg width="100" height="100" viewBox="0 0 189 181" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M42.1281 0L18.4774 5.61996L0 46.653L14.2091 55.6677L25.9299 33.3746L33.2073 35.3643L26.775 96.3149H89.8903L93.8171 60.6217L94.2012 57.3325H96.1219L93.8171 35.3643L101.116 33.3746L112.811 55.6677L127.024 46.653L108.543 5.61996L84.8963 0C82.5488 1.57148 79.689 2.52167 76.5732 3.22823C72.561 4.12564 68.0366 4.54388 63.5122 4.54388C58.9878 4.54388 54.4634 4.12564 50.4512 3.22823C47.3354 2.52167 44.4756 1.57554 42.1281 0ZM101.116 64.6417L100.476 70.3267H176.793L176.152 64.6417H101.116ZM99.6646 77.6359L88.2683 180.777H115.03L134.878 92.7009H142.39L162.238 180.777H189L177.604 77.6359H99.6646Z"
+              fill="white" />
+          </svg>
+        </div>
+        <h2 class="fcs-title">CLOTHE</h2>
+      </div>
 
+      <div class="fcs-wrapper">
+        <div class="fcs-circle red-circ">
+          <svg width="100" height="100" viewBox="0 0 166 146" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M151.923 44.6496L154.753 40.5637C154.753 40.5637 157.245 36.9496 157.245 32.0962C157.245 20.3392 144.424 20.6496 144.424 20.6496L116.492 13.9963L101.255 0.8125L81.2043 5.58891L74.629 4.02244L69.6322 8.34647L40.7655 15.2235C40.7655 15.2235 29.6555 14.9564 29.6555 25.1445C29.6555 29.3506 31.817 32.4836 31.817 32.4836L35.5322 37.8495L32.268 40.6696L16.153 44.51C16.153 44.51 3.3325 44.1996 3.3325 55.9565C3.35814 58.6957 4.09044 61.3945 5.47475 63.8514L0.5 68.1562L3.10975 69.061C3.1675 69.1837 3.1895 69.3208 3.30225 69.4195C8.3485 73.8446 7.93325 79.788 7.21275 82.998L4.163 85.6713L27.2657 95.3901L58.9953 141.217C64.08 148.21 74.8737 143.835 74.8737 143.835L156.409 109.532L153.359 106.858C152.638 103.648 152.223 97.705 157.269 93.2775C157.382 93.1788 157.404 93.0416 157.462 92.9213L160.072 92.0142L144.911 78.9001L162.318 71.5779L159.676 69.2607C159.051 66.4791 158.691 61.3273 163.066 57.4917C163.163 57.4051 163.179 57.2896 163.231 57.1813L165.5 56.3945L151.923 44.6496ZM136.289 23.3903L132.852 28.1499L123.959 20.4547L136.289 23.3903ZM102.734 13.1902L115.502 25.1325L69.3325 39.7312L58.4288 24.9183L102.734 13.1902ZM38.296 41.8439L69.8027 87.3485L9.7785 66.5152L38.296 41.8439ZM25.1647 46.8176L21.466 50.0179L19.9865 48.0327L25.1647 46.8176ZM13.4855 49.3057L16.9285 53.9425L9.46775 60.3961C8.88143 58.9715 8.5737 57.4706 8.5575 55.9565C8.5575 51.5627 11.049 49.8904 13.4855 49.3057ZM9.1735 85.0938L9.21475 84.9542L78.369 111.44L9.7565 82.8199C9.81975 82.4951 9.86925 82.1365 9.9215 81.7756L63.6372 101.459L10.1085 79.5233C10.1189 78.5209 10.0399 77.5192 9.872 76.5276L59.5892 94.4421L9.20375 73.9625C8.8812 73.0142 8.44809 72.0974 7.91125 71.2266L76.3395 96.793L77.896 99.0404C81.1052 103.453 86.927 102.638 89.8612 101.873C93.9175 103.624 101.188 107.676 99.3268 113.646C98.345 116.803 96.1862 118.334 92.7295 118.334C89.2287 118.334 85.7335 116.731 85.6977 116.71L9.1735 85.0938ZM78.05 116.758L72.6435 118.716L68.051 112.549L78.05 116.758ZM57.1115 129.706L35.8568 99.0043L56.9823 107.891L66.973 121.346C62.9443 122.853 58.4425 126.291 57.1115 129.706ZM150.702 100.388C150.534 101.38 150.455 102.381 150.466 103.384L96.937 125.319L150.653 105.636C150.705 105.994 150.752 106.355 150.818 106.68L82.2053 135.303L151.359 108.817L151.401 108.957L74.8765 140.567C74.8408 140.589 71.351 142.192 67.8447 142.192C64.3853 142.192 62.2293 140.659 61.2475 137.504C58.723 129.402 73.078 124.809 73.2925 124.739L85.8737 120.042C87.224 120.545 96.8573 123.854 101.579 117.359L104.557 113.062L152.666 95.087C152.128 95.9577 151.694 96.8745 151.37 97.8229L100.985 118.302L150.702 100.388ZM150.796 90.3755L110.027 105.16L121.34 88.8187L139.95 80.9911L150.796 90.3755ZM157.377 63.6493C157.231 64.5088 157.162 65.3768 157.17 66.2457L110.783 85.255L157.335 68.1971C157.382 68.5075 157.421 68.8227 157.478 69.1019L98.0123 93.9055L157.946 70.9523L157.981 71.0726L91.6597 98.4725C91.6295 98.4894 88.6017 99.8802 85.5658 99.8802C82.5655 99.8802 80.6982 98.5496 79.8485 95.816C77.6595 88.7946 90.1005 84.8147 90.2875 84.7545L159.076 59.0558C158.613 59.8117 158.238 60.6066 157.957 61.4283L114.287 79.1768L157.377 63.6493Z"
+              fill="white" />
+          </svg>
+        </div>
+        <h2 class="fcs-title">SUPPLY</h2>
+      </div>
+    </section>
 
-    
-</footer>
+      <section class="kid">
+        <div class="open-hand-kid">
+          <img src="./assets/Homepage.jpg" alt="">
+        </div>
 
-    <script src="script.js"></script>
-</body>
+        <div class="open-hand-text">
+          <div class="margin-wrapper">
+            <p>
+              Your support can be the difference between a hungry child and a nourished future. By donating today, you’re not
+              just providing food or clothing; you’re investing in a child’s health, education, and potential for a brighter
+              tomorrow. Every contribution, no matter the size, helps us empower children in rural areas to overcome
+              challenges and build a better, more equitable future. Together, we can create lasting change and give these
+              children the resources they need to thrive.
+            </p>
+          </div>
+        </div>
+      </section>
+  
+      <div class="letterhead">
+        <img src="./assets/Letterhead.jpeg" alt="">
+      </div>
+
+      <section class="donate-text">
+        <div class="margin-wrapper">
+          <p>
+            When you donate to Nourish Hope Foundation, you’re doing more than providing a meal or a pair of shoes—you’re giving a child the chance to thrive. Your generosity allows us to reach children in rural areas, ensuring they have access to nutritious food, essential clothing, and the tools they need to succeed in school and life. Every dollar makes a difference, helping us build a future where no child is left behind, and every child has the opportunity to grow into a strong, healthy, and empowered individual.
+          </p>
+        </div>
+      </section>
+
+      <section class="sponsor-sect">
+        <h1>Our Sponsors for Today's Event.</h1>
+        <div class="sponsor-images">
+          <div class="sponsor-inner"></div>
+          <div class="sponsor-inner"></div>
+          <div class="sponsor-inner"></div>
+        </div>
+      </section>
+
+      <section class="gratitude-sect">
+          <p>"Thank you for generously sponsoring today's feeding program. Your support makes a significant difference in the lives of these in need and helps bring hope and nourishment to our community. We deeply appreciate your commitment and partnership in this important cause."</p>
+      </section>
+    </main>
+
+    <!-- START FOOTER -->
+    <footer>
+      <section class="top-footer">
+        <h2>
+          <pre>Be the
+       L  ght</pre>
+          <!-- <pre>Be the -->
+          <!-- L  ght</pre> -->
+          <svg class="torch" xmlns="http://www.w3.org/2000/svg" 
+            fill="none">
+            <path
+              d="M3.12877 55.6952C5.17165 59.581 7.72525 62.819 11.3003 64.7619H31.7291C33.2613 64.1143 34.2827 62.819 35.3042 61.5238C40.4114 55.0476 42.4542 45.3333 39.9006 36.9143L39.3899 35.619C38.8792 33.6762 37.8578 32.381 36.8363 31.0857C36.3256 29.7905 35.3042 29.1429 34.7934 27.8476C32.7506 25.9048 30.7077 23.9619 28.6648 21.3714C24.0683 15.5429 23.5576 6.47619 26.1112 0C23.5576 0.647619 21.004 2.59048 18.9611 5.18095C11.3003 12.9524 8.23597 26.5524 11.811 38.8571V40.1524C11.811 40.8 11.3003 41.4476 10.7896 42.0952C10.2789 42.7429 9.25741 42.0952 8.74669 41.4476L8.23597 40.8C5.17165 35.619 4.66093 27.8476 6.70381 21.3714C2.10733 26.5524 -0.446277 34.9714 0.0644438 43.3905C0.0644438 45.3333 0.575163 47.2762 1.08588 49.2191C1.08588 51.1619 2.10733 53.7524 3.12877 55.6952ZM22.0254 45.981C22.5361 42.7429 21.5147 40.1524 21.004 37.5619C20.4933 34.9714 20.4933 32.381 21.5147 29.7905L23.0469 33.6762C25.0897 37.5619 28.6648 38.8571 29.6862 44.0381V45.981C29.6862 49.2191 28.6648 52.4571 27.1326 54.4C26.1112 55.0476 25.0897 56.3429 24.0683 56.3429C21.004 57.6381 17.4289 55.6952 15.3861 53.1048C19.4718 53.1048 21.5147 49.2191 22.0254 45.981ZM35.8149 71.2381V84.1905H30.7077L25.6005 136H15.3861L10.2789 84.1905H5.17165V71.2381H35.8149Z"
+              fill="#FFD400"></path>
+          </svg>
+        </h2>
+
+        <div class="nourish-cta">
+          <p>Nourish Hope Foundation is devoted to improving the lives of children in rural communities by meeting their basic needs. By providing nutritious meals, clothing, school supplies, and access to sports, we strive to give every child the tools and opportunities for healthy growth and development. Our goal is to help these children thrive and build a brighter future for themselves.</p>
+          <button class="donate-btn" type="button">Donate Now</button>
+        </div>
+      </section>
+
+      <section class="bot-footer">
+        <div class="first-col">
+          <h2> Transparent </h2>
+          <ul class="footer-icons">
+            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+          </ul>
+        </div>
+
+        <div class="second-col">
+          <h3>Address</h3>
+          <p>Madison, Mississippi</p>
+        </div>
+        <div class="third-col">
+          <h3>Call Us</h3>
+          <ul class="call-links">
+            <li>+0123 57896857</li>
+            <li>+0123 57896857</li>
+            <li>nourishfoundation@gmail.com</li>
+          </ul>
+        </div>
+        <div class="fourth-col">
+          <h3>Goals</h3>
+          <ul class="goals">
+            <li>Feed</li>
+            <li>Clothe</li>
+            <li>Supply</li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+    <!-- END FOOTER -->
+
+    <script src="./navbar.js"> </script>
+  </body>
+
 </html>
-

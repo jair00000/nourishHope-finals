@@ -1,0 +1,220 @@
+/* ===============DEFAULTS=================== */
+:root {
+    --primary-color: #FCFAEE;
+    --secondary-color: #d9d9d9;
+    --tertiary-color: #384B70;
+    --box-bg-color: #FFFFFF;
+    --highlights: #FFBF00;
+    --highlights-text-color: #384B70;
+    --button-color: #FFD400;
+    --button-text: #384B70;
+    --primary-section: #507687;
+    --secondary-section: #D8A25E;
+    --vertical-margin: 5dvw;
+    --header-font: clamp(1.5rem, 3dvw, 2.5rem);
+    --divider-text: clamp(14px, 2vw, 2rem);
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: #4CAF50a0 solid 5px; */
+}
+
+ol,
+ul,
+li {
+    list-style-type: none;
+    all: unset;
+}
+
+ol,
+ul,
+p,
+a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Lora', serif;
+    font-weight: 600;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    font-style: italic;
+    background-repeat: no-repeat;
+    background-size: cover;
+    shape-margin: 1rem;
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+}
+
+.margin-wrapper {
+    margin-inline: var(--vertical-margin);
+}
+
+/* ===============DEFAULTS=================== */
+
+.kids-supply {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* margin-top: 2rem; */
+}
+
+.kids-supply-text {
+    padding: 1rem;
+    color: var(--primary-color);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* border-radius: 20px; */
+    /* margin-bottom: 2rem; */
+    background-color: #D8A25E;
+}
+
+.kids-supply-text>p {
+    font-size: clamp(1.4rem, 3dvw, 2.5rem);
+    font-family: 'Lora', serif;
+    line-height: 1.3;
+    text-align: center;
+    max-width: 65ch;
+    min-width: 20ch;
+}
+
+.kids-supply>img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.kids1-supply {
+    background-color: #EEDF7A;
+    font-size: clamp(1.4rem, 2.5dvw, 2.5rem);
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.kids1-supply>img {
+    width: 50%;
+    height: 80vh;
+    object-fit: cover;
+}
+
+.kids1-supply>div {
+    flex: 1;
+}
+
+.kids1-supply-text>p {
+    margin-inline: var(--vertical-margin);
+    font-family: 'Lora', serif;
+}
+
+.kids2-supply-text {
+    background-color: #D8A25E;
+    padding: 5rem 1rem;
+}
+
+.kids2-supply-text>p {
+    color: var(--primary-color);
+    font-size: clamp(1.4rem, 2.5dvw, 2.5rem);
+    margin-inline: var(--vertical-margin);
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
+.fcs-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5rem var(--vertical-margin);
+    justify-content: space-around;
+}
+
+.fcs-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fcs-circle {
+    padding: 3rem;
+    border-radius: 50%;
+    border-width: 0;
+}
+
+.green-circ {
+    background-color: #507687;
+}
+
+.blue-circ {
+    background-color: #384B70;
+}
+
+.red-circ {
+    background-color: #D10363;
+}
+
+.fcs-title {
+    color: #808836;
+    font-size: clamp(1.5rem, 3dvw, 2.5rem);
+}
+
+.invite {
+    display: flex;
+    justify-content: center;
+    background-color: #A04747;
+    font-size: clamp(1.5rem, 3dvw, 2.5rem);
+}
+
+.invite>p{
+    font-family: 'Lora', serif;
+    color: var(--primary-color);
+    padding: 2rem;
+    text-align: center;
+    max-width: 65ch;
+    min-width: 20ch;
+}
+
+@media (max-width: 576px) {
+    .kids1-supply {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .kids1-supply>img {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .kids1-supply>div>p {
+        padding-block: 1rem;
+    }
+
+    .kids2-supply-text {
+        padding: 1rem;
+    }
+
+    .kids2-supply-text>p {
+        text-align: start;
+    }
+}
